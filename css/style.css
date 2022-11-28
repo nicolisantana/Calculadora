@@ -1,10 +1,22 @@
 body{
-    background-color: rgb(250, 195, 234);
+    background-color: rgb(173, 255, 177);
 }
 
 .titulo{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 160%;
+    color: rgb(9, 145, 99);
+    font-size: 155%;
     font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#anima-div{
+    background: url(../img/sprite-multi_1.png) -0px -531px;
+    width: 120px;
+    height: 120px;
+    animation: anima-sprite 1s steps(10) infinite;
+}
+
+@keyframes anima-sprite{
+    100%{ background-position-x: -1200px;}
 }
 
