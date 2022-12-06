@@ -1,13 +1,97 @@
 body{
-    background-color: rgb(173, 255, 177);
+    background-color: rgb(3, 93, 8);
+    height: 100%;
+    width: 100%;
+    
 }
 
 .titulo{
-    color: rgb(9, 145, 99);
-    font-size: 155%;
+    color: rgb(38, 97, 13);
+    font-size: 175%;
     font-style: italic;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.titulo2{
+    color: rgb(169, 234, 141);
+    font-size: 175%;
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+.estrutura{
+position:relative;
+width: 294px;
+height: 410px;
+
+background: rgba(0, 20, 1, 0.65);
+border-radius: 41px;
+}
+
+.liv{
+position:relative;
+width: 800px;
+height: 700px;
+left: 400px;
+top: 0px;
+
+background: linear-gradient(180deg, #C9FCDB 0%, rgba(10, 98, 40, 0) 100%);
+border-radius: 100px;
+}
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+    background-color: rgb(31,31,31);
+    border: none;
+    color:#fff;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #anima-div{
     background: url(../img/sprite-multi_1.png) -0px -531px;
@@ -19,4 +103,3 @@ body{
 @keyframes anima-sprite{
     100%{ background-position-x: -1200px;}
 }
-
