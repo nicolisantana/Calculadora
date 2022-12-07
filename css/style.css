@@ -5,6 +5,7 @@ body{
     
 }
 
+/* titulos */
 .titulo{
     color: rgb(38, 97, 13);
     font-size: 175%;
@@ -18,9 +19,7 @@ body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-
-
-
+/* style calculadora basica */
 
 .estrutura{
 position:relative;
@@ -52,7 +51,74 @@ border-radius: 100px;
     color:#fff;
   }
 
+  #resultado{
+    width: 209px;
+    height:40px;
+    background-color:rgb(213, 251, 219);
+    margin: 8px;
+    font-size: 25px;
+    color:#000;
+    text-align: right;
+  }
 
+  /* style bhaskara */
+
+  #a1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    border-radius: 8px;
+    padding: 1%;
+    top:150px;
+    
+    }
+
+    #b1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    border-radius: 8px;
+    padding: 1%;
+    top:225px;
+    }
+
+    #c1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    border-radius: 8px;
+    padding: 1%;
+    top: 300px;
+    }
+
+    #mostrar-resul{
+        width: 190px;
+        height:40px;
+        background-color:rgb(213, 251, 219);
+        margin: 8px;
+        font-size: 25px;
+        color:#000;
+        text-align: right;
+    }
+
+    .letra-bhas{
+        left: -20px;
+        font-size: 175%;
+        font-style: italic;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+
+    .letra-bhas1{
+        left: -20px;
+        font-size: 130%;
+        font-style: italic;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
 
 
 
